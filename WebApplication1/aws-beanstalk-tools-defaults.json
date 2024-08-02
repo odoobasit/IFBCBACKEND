@@ -1,0 +1,22 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Debug",
+    "framework"     : "net8.0",
+    "self-contained" : true,
+    "application"    : "ifbc-dotnet-backend",
+    "environment"    : "Ifbc-dotnet-backend-env",
+    "app-path"       : "/",
+    "iis-website"    : "Default Web Site",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "enhanced",
+    "additional-options"   : "",
+    "solution-stack"       : "64bit Windows Server Core 2019 v2.15.2 running IIS 10.0",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "webapplication1-devifbc",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "giantssolutionspk",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}
